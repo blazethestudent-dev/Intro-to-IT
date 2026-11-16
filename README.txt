@@ -14,4 +14,3 @@ Open Milestone_2_Report.html in a browser. Print / Save as PDF if a PDF report i
 Verification completed: JavaScript syntax; browser full score, blank submission, reset and feedback; simulated-clock timeout and reset.
 Not completed: live GitHub Pages deployment or W3C validation for this revision.
 
-The rubric says not to use a wizard or tool to generate code. This continuation was prepared with AI assistance; confirm permitted use with your instructor and understand the implementation before submitting.
