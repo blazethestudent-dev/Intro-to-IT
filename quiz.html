@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Learn what makes computers work, how devices connect, and how information technology supports everyday life.">
+<title>Self-Assessment Quiz | Intro to IT</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Same menu on each page -->
+<header>
+<div class="header-inner">
+<a class="brand" href="index.html">
+<span class="brand-icon">IT</span> Intro to IT</a>
+<nav aria-label="Main menu">
+<a href="index.html">Home</a>
+<a href="hardware.html">Hardware &amp; Software</a>
+<a href="networks.html">Networking &amp; Security</a>
+<a href="concepts.html">Key Concepts</a>
+<a href="resources.html">Resources</a>
+<a href="about.html">About</a>
+<a href="quiz.html" aria-current="page">Self-Assessment Quiz</a>
+</nav>
+</div>
+</header>
+<main id="main"><p class="eyebrow">Milestone 2 · Check your understanding</p><h1>IT self-assessment</h1>
+<p>Review the hardware, networking, and key concepts pages before starting. Answer 10 questions in 10 minutes. Each question is worth one point; 7/10 (70%) passes. Multiple-selection questions require all correct choices, with no extra selections. Blank answers earn zero points.</p>
+<noscript><p>This quiz needs JavaScript. Enable it and reload this page.</p></noscript>
+<button id="start" type="button">Start quiz</button><p id="timer" role="timer" aria-label="Time remaining">Time remaining: 10:00</p>
+<form id="quiz" hidden><fieldset id="questions"><legend>Ten IT questions</legend><fieldset class="question"><legend>1. What three-letter acronym names the component that executes program instructions?</legend><label for="q1">Your answer</label><input id="q1" name="q1" type="text" autocomplete="off"></fieldset><fieldset class="question"><legend>2. What three-letter acronym names temporary memory used by running programs?</legend><label for="q2">Your answer</label><input id="q2" name="q2" type="text" autocomplete="off"></fieldset><fieldset class="question"><legend>3. Which device forwards traffic between networks?</legend><label class="choice" for="q3-0"><input id="q3-0" name="q3" type="radio" value="Router"> Router</label><label class="choice" for="q3-1"><input id="q3-1" name="q3" type="radio" value="Keyboard"> Keyboard</label><label class="choice" for="q3-2"><input id="q3-2" name="q3" type="radio" value="Monitor"> Monitor</label></fieldset><fieldset class="question"><legend>4. Which is an operating system?</legend><label class="choice" for="q4-0"><input id="q4-0" name="q4" type="radio" value="Microsoft Word"> Microsoft Word</label><label class="choice" for="q4-1"><input id="q4-1" name="q4" type="radio" value="Windows"> Windows</label><label class="choice" for="q4-2"><input id="q4-2" name="q4" type="radio" value="Google Chrome"> Google Chrome</label></fieldset><fieldset class="question"><legend>5. Which component retains saved files when power is off?</legend><label class="choice" for="q5-0"><input id="q5-0" name="q5" type="radio" value="RAM"> RAM</label><label class="choice" for="q5-1"><input id="q5-1" name="q5" type="radio" value="SSD"> SSD</label><label class="choice" for="q5-2"><input id="q5-2" name="q5" type="radio" value="CPU"> CPU</label></fieldset><fieldset class="question"><legend>6. Which are input devices? Select all that apply.</legend><label class="choice" for="q6-0"><input id="q6-0" name="q6" type="checkbox" value="Keyboard"> Keyboard</label><label class="choice" for="q6-1"><input id="q6-1" name="q6" type="checkbox" value="Monitor"> Monitor</label><label class="choice" for="q6-2"><input id="q6-2" name="q6" type="checkbox" value="Mouse"> Mouse</label><label class="choice" for="q6-3"><input id="q6-3" name="q6" type="checkbox" value="Printer"> Printer</label></fieldset><fieldset class="question"><legend>7. What does DNS help translate?</legend><label class="choice" for="q7-0"><input id="q7-0" name="q7" type="radio" value="Domain names into IP addresses"> Domain names into IP addresses</label><label class="choice" for="q7-1"><input id="q7-1" name="q7" type="radio" value="Images into audio"> Images into audio</label><label class="choice" for="q7-2"><input id="q7-2" name="q7" type="radio" value="RAM into storage"> RAM into storage</label></fieldset><fieldset class="question"><legend>8. Does a Wi-Fi connection always guarantee internet access?</legend><label class="choice" for="q8-0"><input id="q8-0" name="q8" type="radio" value="Yes"> Yes</label><label class="choice" for="q8-1"><input id="q8-1" name="q8" type="radio" value="No"> No</label></fieldset><fieldset class="question"><legend>9. What is the best response to an unexpected school-account warning link?</legend><label class="choice" for="q9-0"><input id="q9-0" name="q9" type="radio" value="Open the official school website directly"> Open the official school website directly</label><label class="choice" for="q9-1"><input id="q9-1" name="q9" type="radio" value="Enter your password through the message link"> Enter your password through the message link</label><label class="choice" for="q9-2"><input id="q9-2" name="q9" type="radio" value="Forward your password to the sender"> Forward your password to the sender</label></fieldset><fieldset class="question"><legend>10. Which is an example of cloud computing?</legend><label class="choice" for="q10-0"><input id="q10-0" name="q10" type="radio" value="Storing files in an online drive"> Storing files in an online drive</label><label class="choice" for="q10-1"><input id="q10-1" name="q10" type="radio" value="Typing on a disconnected keyboard"> Typing on a disconnected keyboard</label><label class="choice" for="q10-2"><input id="q10-2" name="q10" type="radio" value="Connecting a monitor cable"> Connecting a monitor cable</label></fieldset></fieldset><button id="submit" type="submit">Submit answers</button></form>
+<section id="results" tabindex="-1" aria-live="polite" hidden></section><button id="reset" type="button" hidden>Reset / retake quiz</button>
+</main><!-- Class information and course link -->
+<footer>
+<div>
+<strong>Intro to IT</strong>
+<p>Blaze Williams · Kennesaw State University</p>
+</div>
+<p>This is a class project for <a href="https://ksuweb.github.io/IT3203/">IT 3203: Introduction to Web Development</a>.</p>
+</footer>
+<script src="quiz.js" defer></script>
+</body>
+</html>

@@ -1,29 +1,17 @@
-INTRO TO IT — MILESTONE 1
-Author: Blaze Williams
+INTRO TO IT — MILESTONE 2
+Continuation of Intro_to_IT_Milestone_1.zip, version 2.
 
-OPEN LOCALLY
-Extract the entire ZIP, then open index.html in a browser. Keep images and styles.css in the same folder structure.
+Open index.html after extracting the entire ZIP. Keep every file and images folder together.
+The quiz works locally without installation. Start begins a 10-minute attempt.
 
-GITHUB PAGES SUBMISSION
-1. Sign in to GitHub and create a new public project repository (for example intro-to-it).
-2. Upload the six HTML files, styles.css, and images folder to the repository root. Do not upload only the ZIP.
-3. Open Settings > Pages. Under Build and deployment choose Deploy from a branch, then main and / (root), and save.
-4. Wait for GitHub to display your published URL. Open it and check all six navigation links.
-5. Submit that clickable URL in the assignment Comments textbox and attach this source ZIP.
+PUBLISH TO THE SAME REPOSITORY AS MILESTONE 1
+Replace the existing HTML and CSS files in your original GitHub repository, add quiz.html and quiz.js, and retain images/computer.png.
+Do not create a new repository or upload only this ZIP. Preserve your existing Pages configuration.
+After GitHub Pages finishes deploying, check every menu link and test quiz submission and reset on the live site.
+Submit the clickable live GitHub Pages URL in the assignment Comments textbox, the source ZIP, and the milestone report.
+Open Milestone_2_Report.html in a browser. Print / Save as PDF if a PDF report is needed. Add your actual repository and live URL before submission.
 
-VALIDATION
-Use https://validator.w3.org/ and its File Upload option for each of the six HTML files, or validate their live GitHub Pages URLs. Fix any reported errors before submitting. All six pages were checked with the W3C HTML validator. GitHub Pages deployment still needs to be completed.
+Verification completed: JavaScript syntax; browser full score, blank submission, reset and feedback; simulated-clock timeout and reset.
+Not completed: live GitHub Pages deployment or W3C validation for this revision.
 
-REQUIREMENTS MAP
-Six pages: index.html, hardware.html, networks.html, concepts.html, resources.html, about.html.
-Homepage: title, introduction, key terms, linked contents.
-Two topic pages; references; seven key concepts; About page.
-HTML: headings, lists, image with alt text, table with caption and headers.
-One CSS file: styles.css.
-Selectors: element (body), class (.cards), ID (#main).
-Layout: simple two-column CSS Grid.
-Styles: link hover, padding, margins, borders, colors, fonts.
-Shared main menu and class-project footer on every page.
-Comments explain the HTML structure and CSS implementation.
-
-Review the About page for accuracy and understand the code before submitting. Follow your instructor's rules for AI assistance.
+The rubric says not to use a wizard or tool to generate code. This continuation was prepared with AI assistance; confirm permitted use with your instructor and understand the implementation before submitting.

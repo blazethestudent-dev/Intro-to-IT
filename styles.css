@@ -35,3 +35,23 @@ thead { background-color: #102a4c; color: white; }
 dt { font-size: 20px; font-weight: bold; margin-top: 20px; }
 dd { margin-left: 0; margin-bottom: 20px; }
 footer { background-color: #e1e8f2; border-top: 1px solid #bccbde; padding: 20px; text-align: center; font-size: 14px; }
+
+/* Milestone 2: shared responsive layout and accessible quiz controls. */
+.header-inner { max-width: 1000px; margin: auto; }
+nav a[aria-current="page"] { text-decoration-thickness: 3px; text-underline-offset: 6px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid #b35d14; outline-offset: 4px; }
+button, .button { display: inline-block; background: #244f7d; color: white; padding: 12px 20px; border: 0; border-radius: 5px; font: inherit; cursor: pointer; }
+button:hover { background: #102a4c; } button:disabled { opacity: .6; cursor: default; }
+[hidden] { display: none !important; }
+#timer { font-weight: bold; font-size: 20px; }
+#questions { border: 0; padding: 0; }
+.question { background: white; border: 1px solid #bccbde; margin: 24px 0; padding: 20px; border-radius: 6px; }
+legend { font-weight: bold; padding: 0 6px; }
+.choice { display: block; padding: 8px; cursor: pointer; }
+input[type="text"] { display: block; box-sizing: border-box; max-width: 100%; padding: 10px; font: inherit; border: 1px solid #64748b; }
+input[type="radio"], input[type="checkbox"] { width: 18px; height: 18px; accent-color: #244f7d; }
+.correct { border-left: 5px solid #217045; background: #edf8f0; padding: 15px; color: #18502f; }
+.incorrect { border-left: 5px solid #ac3030; background: #fff1f1; padding: 15px; color: #842222; }
+#results article { margin: 16px 0; }
+.table-wrap { overflow-x: auto; }
+@media (max-width: 650px) { .cards, .hero-grid { grid-template-columns: 1fr; } #main { padding: 18px; } h1 { font-size: 30px; } nav a { margin-right: 12px; } }
